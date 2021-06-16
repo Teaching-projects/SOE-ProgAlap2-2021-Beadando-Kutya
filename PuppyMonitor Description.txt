@@ -13,7 +13,6 @@ Ehhez tartozik egy grafikus felület, ezeket a funkciókat ellátó gombokkal.
 1. Háttérlogika
 A programnak be kell töltenie a json fájlokat (puppers mappa), írás-olvasás céljából
 Rendelkeznie kell egy insertdata függvénnyel, ezzel adatot lehet bevinni, valamint egy deletelast függvénnyel, ami a legutóbbi adat törlését teszi lehetővé.
-Ezek mellett kell lennie egy dumpdata függvénynek, ami a teljes fájlt kiíratja.
 
 Az insertdata függvény adjon exception-t ha túl nagy eltérés van az utolsó adathoz képest, kivéve ha az null volt.
 
@@ -23,4 +22,5 @@ A grafikus felületnek rendelkeznie kell:
 	Egy gombbal, amivel az adatokat meg lehet nyitni egy új ablakban.
 	Bemeneti mezőkkel amikkel be lehet vinni a kiskutya súlyát és hogy volt-e az anyján szoptatva.
 	Továbbá lennie kell egy gombnak ami a deletelast függvényt hívja meg.
+	Lennie kell egy gombnak amivel a kiskutyák adatait meg lehet jeleníteni
 
