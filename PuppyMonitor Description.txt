@@ -19,7 +19,7 @@ Az insertdata függvény adjon exception-t ha túl nagy eltérés van az utolsó
 2. GUI
 
 A grafikus felületnek rendelkeznie kell: 
-	Egy gombbal, amivel az adatokat meg lehet nyitni egy új ablakban.
+	Egy gombbal, amivel az adatokat meg lehet nyitni.
 	Bemeneti mezőkkel amikkel be lehet vinni a kiskutya súlyát és hogy volt-e az anyján szoptatva.
 	Továbbá lennie kell egy gombnak ami a deletelast függvényt hívja meg.
 	Lennie kell egy gombnak amivel a kiskutyák adatait meg lehet jeleníteni
