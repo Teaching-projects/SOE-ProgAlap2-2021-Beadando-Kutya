@@ -1,26 +1,13 @@
 Prog2 beadandó feladat
 
-Puppy meal monitoring software
+Jegyzettömb
 
-Egy olyan programot készítek el, mellyel 9 kiskutya etetését és növekedését lehet nyomon követni
+Feladatomban egy egyszerű jegyzettömböt készítek.
 
-A program háttérlogikájához tartozik a json adatbázisok kezelése.
-A programmal a listákba új adatot lehet felvinni, régieket törölni, a lista tartalmát lekérni
+A program szöveges fájlok megnyitására és mentésére képes, simán mentés és mentés másként formában.
+cut, copy, paste, undo és redo funkciókat kell tudjon végrehajtania.
+Ezeket menü fülekben helyeztem el.
 
-Ehhez tartozik egy grafikus felület, ezeket a funkciókat ellátó gombokkal.
+Az ablak oldalán egy görgető van elhelyezve.
 
-
-1. Háttérlogika
-A programnak be kell töltenie a json fájlokat (puppers mappa), írás-olvasás céljából
-Rendelkeznie kell egy insertdata függvénnyel, ezzel adatot lehet bevinni, valamint egy deletelast függvénnyel, ami a legutóbbi adat törlését teszi lehetővé.
-
-Az insertdata függvény adjon exception-t ha túl nagy eltérés van az utolsó adathoz képest, kivéve ha az null volt.
-
-2. GUI
-
-A grafikus felületnek rendelkeznie kell: 
-	Egy gombbal, amivel az adatokat meg lehet nyitni.
-	Bemeneti mezőkkel amikkel be lehet vinni a kiskutya súlyát és hogy volt-e az anyján szoptatva.
-	Továbbá lennie kell egy gombnak ami a deletelast függvényt hívja meg.
-	Lennie kell egy gombnak amivel a kiskutyák adatait meg lehet jeleníteni
 
